@@ -52,7 +52,7 @@ void renderScene(void)
 	glColor3f(1.0, 0, 0);
 	glTranslated(tx, ty, tz);
 	glRotated(angle, 0, 1, 0);
-	glutSolidTeapot(size);
+	glutWireTeapot(size);
 	
 	// End of frame
 	glutSwapBuffers();
